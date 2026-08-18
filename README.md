@@ -1,6 +1,6 @@
 # Airflow-in-Docker-Setup
 
-This repository implements an automated ETL (Extract–Transform–Load) pipeline using Apache Airflow, orchestrated via Docker and backed by an external PostgreSQL database.
+ Setup guide for automated ETL (Extract–Transform–Load) pipeline using Apache Airflow, orchestrated via Docker and backed by an external PostgreSQL database.
 
 **Extract**: Source data is retrieved from a remote files such as (CSV, TXT, PARQUET) endpoint via HTTP request.
 **Load**: Data is bulk-loaded into a staging table (employees_temp) using PostgreSQL's COPY protocol, isolating raw data from the production schema.
